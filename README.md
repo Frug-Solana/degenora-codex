@@ -32,6 +32,8 @@ This repo is designed to feel like a game codex.
 
 
 - Start here: [Field Report 0001](field-reports/0001-arrival.md)
+- [Field Report 0002](field-reports/0002-verdant-expanse.md)
+- [Field Report 0003](field-reports/0003-bag-check.md)
 - World overview: [Degenora Island](codex/degenora-island.md)
 - Specimen dossier template: [Template](specimens/_template.md)
 
