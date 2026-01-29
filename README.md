@@ -36,6 +36,7 @@ This repo is designed to feel like a game codex.
 - [Field Report 0003](field-reports/0003-bag-check.md)
 - [Field Report 0004](field-reports/0004-base-camp.md)
 - World overview: [Degenora Island](codex/degenora-island.md)
+- Terminal: [Terminal 7-B](codex/index.md)
 - Specimen dossier template: [Template](specimens/_template.md)
 
 ## What this is
