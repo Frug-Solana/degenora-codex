@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Terminal 7-B</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="scanlines"></div>
+  <div class="wrap">
+    <header class="topbar">
+      <div class="brand">
+        <div class="sig">TERMINAL 7-B</div>
+        <div class="sub">DEGENORA ACCESS NODE</div>
+      </div>
+      <div class="status">
+        <span class="pill ok">PUBLIC</span>
+        <span class="pill warn">READ ONLY</span>
+        <span class="pill">SYNC ACTIVE</span>
+      </div>
+    </header>
+
+    <main class="grid">
+      <section class="panel" id="boot">
+        <div class="panel-title">BOOT</div>
+        <pre class="mono" id="bootText"></pre>
+        <div class="prompt mono">
+          <span class="caret">></span>
+          <input id="cmd" autocomplete="off" spellcheck="false" placeholder="HELP" />
+        </div>
+        <div class="hint mono">Commands: HELP, MAP, REPORTS, LAB, SPECIMENS</div>
+      </section>
+
+      <section class="panel" id="view">
+        <div class="panel-title" id="viewTitle">VIEW</div>
+        <div class="view-body" id="viewBody"></div>
+      </section>
+
+      <section class="panel" id="quick">
+        <div class="panel-title">QUICK LINKS</div>
+        <div class="list" id="quickLinks"></div>
+      </section>
+
+      <section class="panel" id="signals">
+        <div class="panel-title">SIGNALS</div>
+        <div class="kv mono">
+          <div><span class="k">CA</span><span class="v">EBnA9HbJkhRTP1n1ZCkZzNCGjLssRWTetBFL9nzPpump</span></div>
+          <div><span class="k">X</span><span class="v"><a href="https://x.com/FrugSolana" target="_blank" rel="noreferrer">x.com/FrugSolana</a></span></div>
+          <div><span class="k">TG</span><span class="v"><a href="https://t.me/frugsolana" target="_blank" rel="noreferrer">t.me/frugsolana</a></span></div>
+          <div><span class="k">DISC</span><span class="v"><a href="https://discord.gg/md74jUqgVX" target="_blank" rel="noreferrer">discord.gg/md74jUqgVX</a></span></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer mono">
+      <span>FRUG</span>
+      <span class="dot">•</span>
+      <span>Degenora Codex</span>
+      <span class="dot">•</span>
+      <span id="clock"></span>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
