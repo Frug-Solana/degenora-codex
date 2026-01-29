@@ -17,6 +17,20 @@ Welcome to the **Degenora Codex**, a public lore archive for the FRUG IP.
 This repo is designed to feel like a game codex.
 
 ## Quick links
+
+## Visual archive
+
+![Island arrival](assets/inbound/01-island-arrival.jpg)
+
+![Pillsburg fruit](assets/inbound/02-pillsburg-fruit.jpg)
+
+![Map reader](assets/inbound/03-map-reader.jpg)
+
+![Firewalk](assets/inbound/05-firewalk.jpg)
+
+![Stained glass](assets/inbound/09-stained-glass.jpg)
+
+
 - Start here: [Field Report 0001](field-reports/0001-arrival.md)
 - World overview: [Degenora Island](codex/degenora-island.md)
 - Specimen dossier template: [Template](specimens/_template.md)
